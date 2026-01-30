@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Web Accesible</title>
+
+  <!-- Bootstrap Theme (bootstrap.build) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Enlace para saltar contenido (accesibilidad teclado) -->
+  <a href="#contenido-principal" class="visually-hidden-focusable">
+    Saltar al contenido principal
+  </a>
+
+  <!-- HEADER -->
+  <header class="bg-primary text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark container" aria-label="Menú principal">
+      <a class="navbar-brand" href="#">Portafolio Accesible</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+        aria-expanded="false" aria-label="Mostrar u ocultar menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main id="contenido-principal" class="container my-5">
+
+    <!-- INICIO -->
+    <section id="inicio" class="mb-5">
+      <h1>Portafolio Web Accesible e Inclusivo</h1>
+      <p>
+        Este sitio web ha sido diseñado aplicando principios de accesibilidad y
+        diseño inclusivo, garantizando una experiencia comprensible y usable
+        para personas con distintas capacidades.
+      </p>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="mb-5">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy estudiante universitario interesado en el desarrollo web accesible,
+        enfocado en crear interfaces inclusivas que cumplan con las pautas WCAG
+        y mejoren la experiencia de usuario.
+      </p>
+
+      <img src="img/perfil.jpg"
+           class="img-fluid rounded"
+           alt="Fotografía de perfil del desarrollador del portafolio">
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="mb-5">
+      <h2>Proyectos destacados</h2>
+
+      <div class="row">
+
+        <article class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title h5">Proyecto Web Accesible</h3>
+              <p class="card-text">
+                Sitio web desarrollado aplicando etiquetas semánticas,
+                contraste adecuado y navegación por teclado.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Ver detalles del proyecto
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title h5">Aplicación Responsiva</h3>
+              <p class="card-text">
+                Interfaz adaptable a distintos dispositivos con enfoque en
+                legibilidad y usabilidad.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Explorar aplicación
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title h5">Diseño Inclusivo</h3>
+              <p class="card-text">
+                Proyecto enfocado en experiencia de usuario para personas con
+                discapacidades visuales y motoras.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Conocer el proyecto
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="mb-5">
+      <h2>Contacto</h2>
+
+      <form aria-label="Formulario de contacto">
+
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre completo</label>
+          <input type="text" id="nombre" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo electrónico</label>
+          <input type="email" id="correo" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje" class="form-control" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Enviar mensaje de contacto
+        </button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">
+      © 2026 Portafolio Web Accesible – Diseño inclusivo y accesibilidad
+    </p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
