@@ -1,7 +1,7 @@
 # Laboratorio-4
 Aplicación de diseño inclusivo y accesibilidad a Portafolio Web Responsivo
 ## Análisis de referencia
-Como parte del proceso, se realizó una revisión de la página web de la Universidad UISEK – Ecuador, identificando oportunidades de mejora relacionadas con accesibilidad, estructura semántica y experiencia de usuario. A partir de este análisis, se aplicaron buenas prácticas de accesibilidad en el desarrollo del presente portafolio web.
+Como parte del proceso, se realizó una revisión de la página web de la Universidad UISEK de Ecuador, identificando oportunidades de mejora relacionadas con accesibilidad, estructura semántica y experiencia de usuario. A partir de este análisis, se aplicaron buenas prácticas de accesibilidad en el desarrollo del presente portafolio web.
 
 ## Herramientas utilizadas
 - HTML5 semántico
@@ -59,5 +59,4 @@ Las mejoras implementadas se alinean principalmente con:
 - WCAG 2.1 – Principio Operable
 - WCAG 2.1 – Principio Comprensible
 
-## Conclusión
-El desarrollo de este portafolio web permitió aplicar principios de accesibilidad y diseño inclusivo de manera práctica, demostrando la importancia de crear interfaces digitales que consideren la diversidad de usuarios y promuevan la igualdad de acceso a la información en entornos web.
+
